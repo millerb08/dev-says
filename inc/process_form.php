@@ -16,7 +16,7 @@ function process_form() {
     $captcha = json_decode(
         file_get_contents(
             'https://www.google.com/recaptcha/api/siteverify?secret='
-            .'6Le1CUgUAAAAABGajSPED5dDGKSHC99zbjPVF6DR'
+            .getenv("SECRET_KEY")
             .'&response='.$_POST['g-recaptcha-response']
         )
     );

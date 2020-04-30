@@ -36,7 +36,7 @@ if (isset($_GET['thanks'])) {
                 ?></textarea>
                 <label for="message" class="sr-only">Message</label>
             </div>
-            <div class="g-recaptcha form-label-group" data-sitekey="6Le1CUgUAAAAAPdn2Yep_jeIllKTn5F-MhRgqJXi"></div>
+            <div class="g-recaptcha form-label-group" data-sitekey="<?php echo getenv('SITE_KEY'); ?>"></div>
             <div class="form-label-group">
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
             </div>

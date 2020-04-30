@@ -16,7 +16,7 @@
     <link href="css/styles.css" rel="stylesheet">
       
     <!-- Google reCaptcha -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js' ></script>
   </head>
 
   <body class="text-center">
